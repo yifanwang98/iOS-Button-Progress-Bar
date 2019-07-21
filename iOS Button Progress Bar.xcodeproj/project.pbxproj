@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47EF03B022E4A6AF0003D47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF03AF22E4A6AF0003D47E /* AppDelegate.swift */; };
+		47EF03B222E4A6AF0003D47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF03B122E4A6AF0003D47E /* ViewController.swift */; };
+		47EF03B522E4A6AF0003D47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EF03B322E4A6AF0003D47E /* Main.storyboard */; };
+		47EF03B822E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47EF03B622E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodeld */; };
+		47EF03BA22E4A6B10003D47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF03B922E4A6B10003D47E /* Assets.xcassets */; };
+		47EF03BD22E4A6B10003D47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EF03BB22E4A6B10003D47E /* LaunchScreen.storyboard */; };
+		47EF03C822E4A6B10003D47E /* iOS_Button_Progress_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF03C722E4A6B10003D47E /* iOS_Button_Progress_BarTests.swift */; };
+		47EF03D322E4A6B10003D47E /* iOS_Button_Progress_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF03D222E4A6B10003D47E /* iOS_Button_Progress_BarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47EF03C422E4A6B10003D47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47EF03A422E4A6AF0003D47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EF03AB22E4A6AF0003D47E;
+			remoteInfo = "iOS Button Progress Bar";
+		};
+		47EF03CF22E4A6B10003D47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47EF03A422E4A6AF0003D47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EF03AB22E4A6AF0003D47E;
+			remoteInfo = "iOS Button Progress Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47EF03AC22E4A6AF0003D47E /* iOS Button Progress Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Button Progress Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EF03AF22E4A6AF0003D47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47EF03B122E4A6AF0003D47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47EF03B422E4A6AF0003D47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47EF03B722E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Button_Progress_Bar.xcdatamodel; sourceTree = "<group>"; };
+		47EF03B922E4A6B10003D47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EF03BC22E4A6B10003D47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47EF03BE22E4A6B10003D47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EF03C322E4A6B10003D47E /* iOS Button Progress BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Button Progress BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EF03C722E4A6B10003D47E /* iOS_Button_Progress_BarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Button_Progress_BarTests.swift; sourceTree = "<group>"; };
+		47EF03C922E4A6B10003D47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EF03CE22E4A6B10003D47E /* iOS Button Progress BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Button Progress BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EF03D222E4A6B10003D47E /* iOS_Button_Progress_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Button_Progress_BarUITests.swift; sourceTree = "<group>"; };
+		47EF03D422E4A6B10003D47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EF03A922E4A6AF0003D47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EF03C022E4A6B10003D47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EF03CB22E4A6B10003D47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47EF03A322E4A6AF0003D47E = {
+			isa = PBXGroup;
+			children = (
+				47EF03AE22E4A6AF0003D47E /* iOS Button Progress Bar */,
+				47EF03C622E4A6B10003D47E /* iOS Button Progress BarTests */,
+				47EF03D122E4A6B10003D47E /* iOS Button Progress BarUITests */,
+				47EF03AD22E4A6AF0003D47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47EF03AD22E4A6AF0003D47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EF03AC22E4A6AF0003D47E /* iOS Button Progress Bar.app */,
+				47EF03C322E4A6B10003D47E /* iOS Button Progress BarTests.xctest */,
+				47EF03CE22E4A6B10003D47E /* iOS Button Progress BarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EF03AE22E4A6AF0003D47E /* iOS Button Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				47EF03AF22E4A6AF0003D47E /* AppDelegate.swift */,
+				47EF03B122E4A6AF0003D47E /* ViewController.swift */,
+				47EF03B322E4A6AF0003D47E /* Main.storyboard */,
+				47EF03B922E4A6B10003D47E /* Assets.xcassets */,
+				47EF03BB22E4A6B10003D47E /* LaunchScreen.storyboard */,
+				47EF03BE22E4A6B10003D47E /* Info.plist */,
+				47EF03B622E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodeld */,
+			);
+			path = "iOS Button Progress Bar";
+			sourceTree = "<group>";
+		};
+		47EF03C622E4A6B10003D47E /* iOS Button Progress BarTests */ = {
+			isa = PBXGroup;
+			children = (
+				47EF03C722E4A6B10003D47E /* iOS_Button_Progress_BarTests.swift */,
+				47EF03C922E4A6B10003D47E /* Info.plist */,
+			);
+			path = "iOS Button Progress BarTests";
+			sourceTree = "<group>";
+		};
+		47EF03D122E4A6B10003D47E /* iOS Button Progress BarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47EF03D222E4A6B10003D47E /* iOS_Button_Progress_BarUITests.swift */,
+				47EF03D422E4A6B10003D47E /* Info.plist */,
+			);
+			path = "iOS Button Progress BarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47EF03AB22E4A6AF0003D47E /* iOS Button Progress Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EF03D722E4A6B10003D47E /* Build configuration list for PBXNativeTarget "iOS Button Progress Bar" */;
+			buildPhases = (
+				47EF03A822E4A6AF0003D47E /* Sources */,
+				47EF03A922E4A6AF0003D47E /* Frameworks */,
+				47EF03AA22E4A6AF0003D47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Button Progress Bar";
+			productName = "iOS Button Progress Bar";
+			productReference = 47EF03AC22E4A6AF0003D47E /* iOS Button Progress Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47EF03C222E4A6B10003D47E /* iOS Button Progress BarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EF03DA22E4A6B10003D47E /* Build configuration list for PBXNativeTarget "iOS Button Progress BarTests" */;
+			buildPhases = (
+				47EF03BF22E4A6B10003D47E /* Sources */,
+				47EF03C022E4A6B10003D47E /* Frameworks */,
+				47EF03C122E4A6B10003D47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47EF03C522E4A6B10003D47E /* PBXTargetDependency */,
+			);
+			name = "iOS Button Progress BarTests";
+			productName = "iOS Button Progress BarTests";
+			productReference = 47EF03C322E4A6B10003D47E /* iOS Button Progress BarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47EF03CD22E4A6B10003D47E /* iOS Button Progress BarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EF03DD22E4A6B10003D47E /* Build configuration list for PBXNativeTarget "iOS Button Progress BarUITests" */;
+			buildPhases = (
+				47EF03CA22E4A6B10003D47E /* Sources */,
+				47EF03CB22E4A6B10003D47E /* Frameworks */,
+				47EF03CC22E4A6B10003D47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47EF03D022E4A6B10003D47E /* PBXTargetDependency */,
+			);
+			name = "iOS Button Progress BarUITests";
+			productName = "iOS Button Progress BarUITests";
+			productReference = 47EF03CE22E4A6B10003D47E /* iOS Button Progress BarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47EF03A422E4A6AF0003D47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yifan Wang";
+				TargetAttributes = {
+					47EF03AB22E4A6AF0003D47E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					47EF03C222E4A6B10003D47E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 47EF03AB22E4A6AF0003D47E;
+					};
+					47EF03CD22E4A6B10003D47E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 47EF03AB22E4A6AF0003D47E;
+					};
+				};
+			};
+			buildConfigurationList = 47EF03A722E4A6AF0003D47E /* Build configuration list for PBXProject "iOS Button Progress Bar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47EF03A322E4A6AF0003D47E;
+			productRefGroup = 47EF03AD22E4A6AF0003D47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47EF03AB22E4A6AF0003D47E /* iOS Button Progress Bar */,
+				47EF03C222E4A6B10003D47E /* iOS Button Progress BarTests */,
+				47EF03CD22E4A6B10003D47E /* iOS Button Progress BarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EF03AA22E4A6AF0003D47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EF03BD22E4A6B10003D47E /* LaunchScreen.storyboard in Resources */,
+				47EF03BA22E4A6B10003D47E /* Assets.xcassets in Resources */,
+				47EF03B522E4A6AF0003D47E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EF03C122E4A6B10003D47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EF03CC22E4A6B10003D47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47EF03A822E4A6AF0003D47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EF03B222E4A6AF0003D47E /* ViewController.swift in Sources */,
+				47EF03B822E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodeld in Sources */,
+				47EF03B022E4A6AF0003D47E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EF03BF22E4A6B10003D47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EF03C822E4A6B10003D47E /* iOS_Button_Progress_BarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EF03CA22E4A6B10003D47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EF03D322E4A6B10003D47E /* iOS_Button_Progress_BarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47EF03C522E4A6B10003D47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47EF03AB22E4A6AF0003D47E /* iOS Button Progress Bar */;
+			targetProxy = 47EF03C422E4A6B10003D47E /* PBXContainerItemProxy */;
+		};
+		47EF03D022E4A6B10003D47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47EF03AB22E4A6AF0003D47E /* iOS Button Progress Bar */;
+			targetProxy = 47EF03CF22E4A6B10003D47E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47EF03B322E4A6AF0003D47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EF03B422E4A6AF0003D47E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47EF03BB22E4A6B10003D47E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EF03BC22E4A6B10003D47E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47EF03D522E4A6B10003D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47EF03D622E4A6B10003D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47EF03D822E4A6B10003D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB545XQPS3;
+				INFOPLIST_FILE = "iOS Button Progress Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YifanWang.iOS-Button-Progress-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47EF03D922E4A6B10003D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB545XQPS3;
+				INFOPLIST_FILE = "iOS Button Progress Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YifanWang.iOS-Button-Progress-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47EF03DB22E4A6B10003D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB545XQPS3;
+				INFOPLIST_FILE = "iOS Button Progress BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YifanWang.iOS-Button-Progress-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Button Progress Bar.app/iOS Button Progress Bar";
+			};
+			name = Debug;
+		};
+		47EF03DC22E4A6B10003D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB545XQPS3;
+				INFOPLIST_FILE = "iOS Button Progress BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YifanWang.iOS-Button-Progress-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Button Progress Bar.app/iOS Button Progress Bar";
+			};
+			name = Release;
+		};
+		47EF03DE22E4A6B10003D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB545XQPS3;
+				INFOPLIST_FILE = "iOS Button Progress BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YifanWang.iOS-Button-Progress-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Button Progress Bar";
+			};
+			name = Debug;
+		};
+		47EF03DF22E4A6B10003D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB545XQPS3;
+				INFOPLIST_FILE = "iOS Button Progress BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YifanWang.iOS-Button-Progress-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Button Progress Bar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47EF03A722E4A6AF0003D47E /* Build configuration list for PBXProject "iOS Button Progress Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EF03D522E4A6B10003D47E /* Debug */,
+				47EF03D622E4A6B10003D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EF03D722E4A6B10003D47E /* Build configuration list for PBXNativeTarget "iOS Button Progress Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EF03D822E4A6B10003D47E /* Debug */,
+				47EF03D922E4A6B10003D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EF03DA22E4A6B10003D47E /* Build configuration list for PBXNativeTarget "iOS Button Progress BarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EF03DB22E4A6B10003D47E /* Debug */,
+				47EF03DC22E4A6B10003D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EF03DD22E4A6B10003D47E /* Build configuration list for PBXNativeTarget "iOS Button Progress BarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EF03DE22E4A6B10003D47E /* Debug */,
+				47EF03DF22E4A6B10003D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47EF03B622E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47EF03B722E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodel */,
+			);
+			currentVersion = 47EF03B722E4A6AF0003D47E /* iOS_Button_Progress_Bar.xcdatamodel */;
+			path = iOS_Button_Progress_Bar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47EF03A422E4A6AF0003D47E /* Project object */;
+}
